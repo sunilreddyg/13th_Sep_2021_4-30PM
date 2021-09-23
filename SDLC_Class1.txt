@@ -1,0 +1,253 @@
+Software Testing:-->
+
+	Manual
+	Automation
+
+SDLC:--> [Software Develovepement Life cycle]
+
+		It is systamatic approach to design,develop,test sofware.
+
+
+	phases of SDLC:-->
+		1. Requirement collection
+		2. Requirement analysis
+		3. Design
+		4. Coding
+		5. Testing
+		6. Release and maintenance
+
+
+	Requirement Collection:-->
+			
+			During Collection phase Busniess Analyst team meet stakeholder. Stakeholders 
+			includes[Clients,Industry experts,Sales team,Marketing team,developers ---etc]
+
+			What is agenda of this meeting:-->
+				To understand client needs and requirements.
+
+			After exchanging question and answers business analyst team design all client
+			requirement into BRS document  [Business requirement specification]
+
+			Other name of BRS is :-->
+				URS -->User requirement specification document
+				CRS -->Customer requirement specification document.
+
+					Reviews on Requirements:-->
+						=> Are they achievable requirements ?
+						=> Are they maintainable requirements ?
+						=> Are they testable requirements ?
+						=> Are they complete requirements ?
+
+
+			Agile Developement:-->
+					=> In agile developement Business analyst called as [product owner]
+					=> after gathering client requirements product owner write
+						"userstories" accroding to client requirements.
+
+					Epic:-->
+							Epic is larger requirement
+
+					Userstory:-->
+							A small narration what client exactly wants
+
+					UserStory Syntax:-->
+							As a ----Role----- I want -----JOb------SoThat -----Output
+						
+							As a seller i want to sell my products sothat customer can buy it	
+							As a cusomer i want to buy a product online 
+							As a customer i can add selected items to cart So that i can buy later
+							As a customer i can remove selected items from cart 
+
+							
+
+					Who can write user stories:-->
+						Any body who involve in software developement. but most of
+						the times design by the prodcut owner.
+
+====================================================================================================>>>		
+	Requirement analysis:-->
+			During this phase System Analyst [Solution Analyst] analyse time and budget.
+
+			Analyst Team conduct feasibility on client requirement.
+					1.Duration
+					2.Intime release
+					3.budget
+					4.Terms and Condition..
+					5.Analysis on software and hardware
+
+			After completed analysis of requirements once it approved, system analyst transfer
+			all business requirements into software requirement.. After transfer all requirements
+			system analyst place in SRS[softwrae requirement specification document]
+
+			SRS:--> SRS is a key document for developement team and testing team.
+				Testers understand :--> functional and non functional requirements
+				programmers understand :--> Technical information 
+
+				SRS simplified into Two categories:-->
+					FRS --> Functional requirement specification document
+					NFRS--> Non functional requirement specification document
+
+
+			What is difference between BRS and SRS document:-->
+
+				BRS--> It contains client needs
+				SRS--> To fullfill client needs what are hardwares and software,
+						
+===========================================================================================================>>
+Design:-->
+		Design phase is usefull to visuvalize software.After completed srs reviews and approvals
+		desing architect team involve in system designs.
+		
+				HLD--> High level design document
+				LLD--> Low level design document
+
+
+		HLD:--> it explains overall architecutre of software.
+			
+		Who involve in HLD designing:-->
+			Solution Analyst involve in HLD designing
+
+				1. System architecture
+					a.User servey diagram
+					b.Usecase diagrams
+				2. DataBase-architecture
+					a. Database design
+					b. Class diagrams
+
+
+		LLD:--> It is a component architecutre,It explains internal structure of
+			each HLD diagrams
+
+				3. Active diagrams
+				4. Flow Diagrams
+
+
+		Where test engineer involve in design:-->
+			=> To Visuvalize softere before develpement
+			=> Inorder to write test steps in testcases
+			=> Tester involve in desings to reivew wether designs
+				are mapping with specified requirements..
+			
+================================================================================================
+Coding:-->
+	Real developement work stats from coding. Every development work start from this phase like [Network, Database,UI --etc]
+	Developement Stages:-->
+			1. Network and Database developement [oracle,MSBI ---etc]
+			2. UI-Developement    [html,css,javascript,angular ---etc]
+			3. Core developement  [java,servlets ---etc]
+
+		Note:--> After completed program writing developer desing "flowgraphs" to programs
+================================================================================================
+Testing:-->
+	During this phase testing team condcut software testing inorder to findout developemt mistakes and help
+	them to improve quality of software.
+
+	Testing condcut in 3 categories:-->
+		1. White box testing
+		2. Black box testing
+		3. Grey box testing (or) Glass box testing
+
+
+	Whit Box Testing:-->
+			During this test developement team [Mostly jr.developers] check internal
+			structure of software by executing programs.This testing also called
+			program level testing. [Testing is not conducting in user interface]
+
+				1. Unit Testing
+				2. Intergration Testing
+
+	Black box testing:-->
+			During this test separete testing team involve . These testers validate
+			software functionaly extenally by operating software.  [Testing is conducting over Userinterface]
+
+				1. System Testing             [Quality Assurance]
+				2. User acceptance testing    [Quality Control]
+
+	Grey box testing:-->
+			[Also known as glass box testing] Mostly jr. Developers involve in grey box testing.
+			Grey box testers can have knowledge of both programming and testing.
+				[Integration & System testing]
+
+
+	How long testing will be conducted:-->
+			Testing will be performed until client finds it acceptable.
+			Another part of tesitng	is verificaton and validation,
+			Both testings will ensure software is working as client expected.
+===========================================================================================================
+Release and Maintenance:-->
+
+	Release:-->
+		After completion of software testing, orgranization plan 
+		for software installation at client place.
+
+		Organization recruite separate Devops to manage
+		releases..
+
+	Maintenance:-->
+		=> When client ask future updations develpement team and 
+			testing team provide maintanance..
+	
+	CCB--> [Change Control Board]
+			This board members will have knowledge of both 
+			developemenet and tesitng. And these borad team 
+			make decision to change any requirements in software.
+===============================================================================================================
+SDLC models:-->
+	
+	1. Waterfall model
+	2. Incremental model
+	3. Spiralmodel
+	4. Prototype model
+	5. Rapid developement model
+	6. V-model
+	7. Agile model		
+
+
+
+	
+	
+		
+
+
+
+		
+
+
+
+
+
+
+		
+
+
+
+
+
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+		
+			
+			
+
+			
+			
+
+
+
+
+
+
+
+
