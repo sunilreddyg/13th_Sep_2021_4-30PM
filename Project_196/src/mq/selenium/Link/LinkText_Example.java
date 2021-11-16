@@ -15,9 +15,16 @@ public class LinkText_Example {
 		Thread.sleep(5000);
 		
 		driver.findElement(By.linkText("Locations")).click();
-		driver.findElement(By.linkText("India")).click();
-
+		Thread.sleep(2000);
 		
+		driver.findElement(By.linkText("India")).click();
+		Thread.sleep(2000);
+		
+		driver.findElement(By.linkText("Delhi")).click();
+		Thread.sleep(2000);
+		
+		driver.findElement(By.partialLinkText("Starbucks")).click();
+		Thread.sleep(2000);
 	}
 
 }
