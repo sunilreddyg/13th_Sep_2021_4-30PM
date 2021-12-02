@@ -13,10 +13,10 @@ public class Final_Variable
 			obj.a=400;  //Changing variable value at runtime 
 			System.out.println("After change a value is --> "+obj.a);
 			
-			
-			Final_Variable obj1=new Final_Variable();
-			System.out.println(obj1.a);
 		
+			Final_Variable obj1=new Final_Variable();
+			System.out.println(obj1.a);   //print 100
+			
 
 		}
 
