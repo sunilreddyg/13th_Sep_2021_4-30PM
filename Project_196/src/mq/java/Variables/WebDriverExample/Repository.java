@@ -3,6 +3,7 @@ package mq.java.Variables.WebDriverExample;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class Repository 
 {
@@ -15,6 +16,25 @@ public class Repository
 		System.setProperty("webdriver.chrome.driver", chrome_path);
 		driver=new ChromeDriver();
 	}
+	
+	public void LaunchBrowser(String Browsername)
+	{
+		switch (Browsername) {
+		case "chrome":
+			System.setProperty("webdriver.chrome.driver", "C:\\Users\\MINDQ\\Desktop\\new_drivers\\chromedriver.exe");
+			driver=new ChromeDriver();
+			break;
+			
+		case "firefox":
+			System.setProperty("webdriver.gecko.driver", "C:\\Users\\MINDQ\\Desktop\\new_drivers\\geckodriver.exe");
+			driver=new FirefoxDriver();
+			break;
+
+		default: System.out.println("browsername is mismatched");
+			break;
+		}
+	}
+	
 	
 	public WebDriver getdriver()
 	{
