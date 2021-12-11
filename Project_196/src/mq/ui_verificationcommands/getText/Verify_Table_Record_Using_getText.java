@@ -11,7 +11,7 @@ public class Verify_Table_Record_Using_getText
 		 * 		And perform user login
 		 * 		And click on PIM tab
 		 * 		When user click Search after Entering valid ID
-		 * 		Annd click on search
+		 * 		And click on search
 		 * 		Then verify record available at PIM Table
 		 */
 		

@@ -4,7 +4,8 @@ import org.openqa.selenium.WebDriver;
 
 import mq.java.Variables.WebDriverExample.Repository;
 
-public class Verify_PageUrl {
+public class Verify_PageUrl 
+{
 
 	public static void main(String[] args) 
 	{
@@ -14,7 +15,6 @@ public class Verify_PageUrl {
 		obj.LaunchBrowser("chrome");
 		driver=obj.getdriver();
 		driver.get("http://instagram.com");
-		
 		
 		if(driver.getCurrentUrl().contains("https://"))
 		{

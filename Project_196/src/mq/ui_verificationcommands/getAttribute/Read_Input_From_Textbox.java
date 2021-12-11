@@ -20,7 +20,6 @@ public class Read_Input_From_Textbox
 		String InputValue=Origin_textbox.getAttribute("value");
 		System.out.println(InputValue);
 		
-		
 		if(InputValue.equals("Hyderabad (HYD)"))
 			System.out.println("Testpass, Expected City Displayed on browser launch");
 		else
