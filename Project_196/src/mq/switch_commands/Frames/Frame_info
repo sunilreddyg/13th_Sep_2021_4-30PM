@@ -4,11 +4,10 @@
 	* In selenium under frame source any element to identify, First
 		we need to switch controls from webpage to frame.
 		
-
 How to identify frame at Webpage:-->
 	
 			=> When user right click on element, At context menu
-					it display  Thisframe [for chrome] / View frame source[for firefox] options.
+					it display  Thisframe [for firefox] / View frame source[for chrome] options.
 					
 			=> We can find a frame by search under selector  [Xpath /CssSelector]	
 							Xpath :-->  //iframe   [or]   //frame
@@ -121,7 +120,14 @@ Note:--> selenium ide can record frame actions.
 
 
 
+NosuchElement Exception:-->  
+	[When Do we get Nosuch Elemnet exception]
+	[How to trouble shoot no such element exception]
 
+	=> When you are at wrong page
+	=> When Dynamic objects are loading to page slowly
+	=> When ID is dynamically Changing
+	=> When object is under frame available 
 
 
 
